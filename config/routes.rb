@@ -1,4 +1,4 @@
 CanvasRails::Application.routes.draw do
-  match '/auth/chronocity_oauth2/callback' => 'oauthclient#create'
-  resources :oauthclient, :only => [:index, :create]
+  match '/auth/syncrocity_oauth2/callback' => 'oauthclient#create'
+  resources :oauthclient, :only => [:create]
 end

@@ -1,1 +1,1 @@
-gem "omniauth-chronocity-oauth2", :github => 'miptliot/omniauth-synchrocity-oauth2'
+gem "omniauth-syncrocity-oauth2", :github => 'miptliot/omniauth-syncrocity-oauth2'
